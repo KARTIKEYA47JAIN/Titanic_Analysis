@@ -21,7 +21,7 @@ import warnings
 
 import requests
 
-requests.get("https://raw.github.com/KARTIKEYA47JAIN/Titanic_Analysis/blob/main/Dashboard/Titanic.csv", get=True)
+requests.get("https://raw.github.com/KARTIKEYA47JAIN/Titanic_Analysis/blob/main/Dashboard/Titanic.csv", verify=True)
 
 
 
