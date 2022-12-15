@@ -20,6 +20,7 @@ from plotly.subplots import make_subplots
 import warnings
 
 warnings.filterwarnings('ignore')
+headers={'User-Agent': 'Mozilla/5.0'}
 
 train_df = pd.read_csv('https://raw.github.com/KARTIKEYA47JAIN/Titanic_Analysis/blob/main/Dashboard/Titanic.csv')
 traincopy_df = train_df.copy()
