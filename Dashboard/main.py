@@ -19,6 +19,12 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import warnings
 
+import requests
+
+requests.get("https://raw.github.com/KARTIKEYA47JAIN/Titanic_Analysis/blob/main/Dashboard/Titanic.csv", get=True)
+
+
+
 warnings.filterwarnings('ignore')
 
 train_df = pd.read_csv("https://raw.github.com/KARTIKEYA47JAIN/Titanic_Analysis/blob/main/Dashboard/Titanic.csv")
