@@ -19,15 +19,11 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import warnings
 
-import requests
-
-requests.get("https://raw.github.com/KARTIKEYA47JAIN/Titanic_Analysis/blob/main/Dashboard/Titanic.csv", verify=True)
-
 
 
 warnings.filterwarnings('ignore')
 
-train_df = pd.read_csv("https://raw.github.com/KARTIKEYA47JAIN/Titanic_Analysis/blob/main/Dashboard/Titanic.csv")
+train_df = pd.read_csv("Titanic.csv")
 traincopy_df = train_df.copy()
 traincopy_df = traincopy_df.drop(['Name', 'Cabin', 'Ticket'], axis=1)
 traincopy_df = traincopy_df.interpolate()
