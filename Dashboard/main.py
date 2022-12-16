@@ -399,13 +399,13 @@ def Location():
             )
             col1, col2, col3, = st.columns(3, gap="small")
             with col1:
-                image = Image.open('/Users/vipulpayal/Desktop/Day/Titanic_Dashboard/Images/Southampton.jpeg')
+                image = Image.open('Dashboard/Images/Southampton.jpeg')
                 image = image.resize((500,500))
                 st.image(image, caption='Southampton City')
             with col2:
                 st.metric(label="", value="️<=>")
             with col3:
-                image = Image.open('/Users/vipulpayal/Desktop/Day/Titanic_Dashboard/Images/Cherbourg.jpeg')
+                image = Image.open('Dashboard/Images/Cherbourg.jpeg')
                 image = image.resize((400,400))
                 st.image(image, caption='Cherbourg City')
 
@@ -437,13 +437,13 @@ def Location():
             )
             col1, col2, col3, = st.columns(3, gap="small")
             with col1:
-                image = Image.open('/Users/vipulpayal/Desktop/Day/Titanic_Dashboard/Images/Cherbourg.jpeg')
+                image = Image.open('Dashboard/Images/Cherbourg.jpeg')
                 image = image.resize((500,500))
                 st.image(image, caption='Cherbourg City')
             with col2:
                 st.metric(label="", value="️<=>")
             with col3:
-                image = Image.open('/Users/vipulpayal/Desktop/Day/Titanic_Dashboard/Images/Queenstown.jpeg')
+                image = Image.open('Dashboard/Images/Queenstown.jpeg')
                 image = image.resize((400,400))
                 st.image(image, caption='Queenstown City')
 
