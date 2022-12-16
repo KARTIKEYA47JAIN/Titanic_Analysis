@@ -640,7 +640,7 @@ def Revenue():
     with st.container():
         # Revenue Breakout
         tab1, temporary, tab2 = st.tabs(
-            ["Revenue from Male($)", "🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊", "Revenue from Female($)"])
+            ["Revenue from Male($)", "🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊", "Revenue from Female($)"])
 
         with tab1:
             # Revenue From Male
