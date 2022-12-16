@@ -23,7 +23,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-train_df = pd.read_csv("Titanic.csv")
+train_df = pd.read_csv("Dashboard/Titanic.csv")
 traincopy_df = train_df.copy()
 traincopy_df = traincopy_df.drop(['Name', 'Cabin', 'Ticket'], axis=1)
 traincopy_df = traincopy_df.interpolate()
