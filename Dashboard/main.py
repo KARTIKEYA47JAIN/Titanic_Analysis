@@ -713,7 +713,7 @@ def Revenue():
                 )
             ))
 
-            revenue_male.update_layout(barmode='stack', title_text='Revenue from Female($)', xaxis_title='Revenue', )
+            revenue_male.update_layout(barmode='stack', title_text='Revenue from Female($)', yaxis_title='Revenue($)', )
             st.plotly_chart(revenue_female)
 
 
