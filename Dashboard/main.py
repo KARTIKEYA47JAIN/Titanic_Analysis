@@ -699,7 +699,7 @@ def Revenue():
                 orientation='h',
                 marker=dict(
                     color='rgba(246, 78, 139, 0.6)',
-                    line=dict(color='rgba(246, 78, 139, 1.0)', width=3)
+                    line=dict(color='rgba(246, 78, 139, 1.0)', width=2)
                 )
             ))
             revenue_female.add_trace(go.Bar(
@@ -709,7 +709,7 @@ def Revenue():
                 orientation='h',
                 marker=dict(
                     color='rgba(58, 71, 80, 0.6)',
-                    line=dict(color='rgba(58, 71, 80, 1.0)', width=3)
+                    line=dict(color='rgba(58, 71, 80, 1.0)', width=2)
                 )
             ))
 
