@@ -694,22 +694,22 @@ def Revenue():
             revenue_female = go.Figure()
             revenue_female.add_trace(go.Bar(
                 y=['Female'],
-                x=[sum(RevSF)],
-                name='Survived Female',
-                orientation='h',
-                marker=dict(
-                    color='rgba(246, 78, 139, 0.6)',
-                    line=dict(color='rgba(246, 78, 139, 1.0)', width=3)
-                )
-            ))
-            revenue_female.add_trace(go.Bar(
-                y=['Female'],
                 x=[sum(RevDF)],
                 name='Dead Female',
                 orientation='h',
                 marker=dict(
                     color='rgba(58, 71, 80, 0.6)',
                     line=dict(color='rgba(58, 71, 80, 1.0)', width=3)
+                )
+            ))
+            revenue_female.add_trace(go.Bar(
+                y=['Female'],
+                x=[sum(RevSF)],
+                name='Survived Female',
+                orientation='h',
+                marker=dict(
+                    color='rgba(246, 78, 139, 0.6)',
+                    line=dict(color='rgba(246, 78, 139, 1.0)', width=3)
                 )
             ))
 
