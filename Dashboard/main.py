@@ -640,7 +640,7 @@ def Revenue():
     with st.container():
         # Revenue Breakout
         tab1, temporary, tab2 = st.tabs(
-            ["Revenue from Male($)", "🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊", "Revenue from Female($)"])
+            ["Revenue from Male($)", "🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊", "Revenue from Female($)"])
 
         with tab1:
             # Revenue From Male
@@ -713,7 +713,7 @@ def Revenue():
                 )
             ))
 
-            revenue_male.update_layout(barmode='stack', title_text='Revenue from Female($)', xaxis_title='Revenue($)', )
+            revenue_male.update_layout(barmode='stack', title_text='Revenue from Female($)', xaxis_title='Revenue', )
             st.plotly_chart(revenue_female)
 
 
